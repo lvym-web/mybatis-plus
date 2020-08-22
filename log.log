@@ -1,0 +1,48 @@
+ Consume Time：6 ms 2020-07-04 20:04:56
+ Execute SQL：UPDATE user SET age=22, update_time='2020-07-04T20:04:56.347' WHERE id=1279337093717409794 AND deleted=0
+
+ Consume Time：6 ms 2020-07-04 20:06:27
+ Execute SQL：UPDATE user SET age=22, update_time='2020-07-04T20:06:27.575' WHERE id=1279337093717409794 AND deleted=0
+
+ Consume Time：6 ms 2020-07-04 20:07:25
+ Execute SQL：UPDATE user SET age=22, update_time='2020-07-04T20:07:25.108' WHERE id=1279337093717409794 AND deleted=0
+
+ Consume Time：6 ms 2020-07-04 20:08:13
+ Execute SQL：UPDATE user SET age=22, update_time='2020-07-04T20:08:13.374' WHERE id=1279337093717409794 AND deleted=0
+
+ Consume Time：13 ms 2020-07-05 08:31:55
+ Execute SQL：SELECT id, name, age, email, manager_id, create_time, update_time, version FROM user WHERE user.manager_id = 1088248166370832385 AND id = 1279337093717409794 AND deleted = 0
+
+ Consume Time：12 ms 2020-07-05 08:46:54
+ Execute SQL：SELECT id, name, age, email, manager_id, create_time, update_time, version FROM user WHERE user.manager_id = 1088248166370832385 AND id = 1279337093717409794 AND deleted = 0
+
+ Consume Time：12 ms 2020-07-05 08:56:19
+ Execute SQL：select * from user
+
+ Consume Time：3 ms 2020-07-05 10:31:42
+ Execute SQL：INSERT INTO user (id,name,age,email,manager_id,create_time,update_time,version) VALUES (1279603832153776130,'5454',24,'fdffff@32156',1094592041087729666,'2020-07-05T10:31:42.137',NULL,NULL) , (1279603832174747650,'666666666666',27,'fdffff@32156',1094592041087729666,'2020-07-05T10:31:42.137',NULL,NULL)
+
+ Consume Time：2 ms 2020-07-05 10:40:43
+ Execute SQL：INSERT INTO user (id,name,email,manager_id,create_time,update_time) VALUES (1279606104325623810,'5454','fdffff@32156',1094592041087729666,'2020-07-05T10:40:43.865',NULL) , (1279606104346595329,'666666666666','fdffff@32156',1094592041087729666,'2020-07-05T10:40:43.865',NULL)
+
+ Consume Time：3 ms 2020-07-05 10:58:39
+ Execute SQL：UPDATE user SET age=24,update_time='2020-07-05T10:58:39.580',deleted=1 WHERE id=1279606104346595329 AND deleted=0
+
+ Consume Time：3 ms 2020-07-05 10:59:40
+ Execute SQL：UPDATE user SET age=25,update_time='2020-07-05T10:59:40.444',deleted=1 WHERE id=1279606104346595329 AND deleted=0
+
+ Consume Time：2 ms 2020-07-05 11:01:17
+ Execute SQL：UPDATE user SET name='0000000',update_time='2020-07-05T11:01:17.373',deleted=1 WHERE id=NULL AND deleted=0
+
+ Consume Time：2 ms 2020-07-05 11:17:15
+ Execute SQL：UPDATE user SET age=29, email=NULL, manager_id=NULL, create_time=NULL, update_time='2020-07-05T11:17:14.992', version=NULL WHERE id=1279606104346595329 AND deleted=0
+
+ Consume Time：3 ms 2020-07-05 11:17:57
+ Execute SQL：UPDATE user SET age=29, email=NULL, manager_id=NULL, create_time=NULL, update_time='2020-07-05T11:17:57.323', version=NULL WHERE id=1279606104346595329 AND deleted=0
+
+ Consume Time：3 ms 2020-07-05 11:19:06
+ Execute SQL：UPDATE user SET age=29, email=NULL, manager_id=NULL, create_time=NULL, update_time='2020-07-05T11:19:06.131', version=NULL WHERE id=1279606104346595329 AND deleted=0
+
+ Consume Time：3 ms 2020-07-05 11:19:54
+ Execute SQL：UPDATE user SET age=23, email=NULL, manager_id=NULL, create_time=NULL, update_time='2020-07-05T11:19:54.299', version=NULL WHERE id=1094590409767661570 AND deleted=0
+

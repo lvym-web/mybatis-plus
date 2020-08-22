@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lvym.mybatisplus.dao.UserMapper">
+
+    <select id="selectL" resultType="com.lvym.mybatisplus.entity.User">
+        select name,age from user ${ew.customSqlSegment}
+    </select>
+    <select id="selectPages" resultType="com.lvym.mybatisplus.entity.User">
+        select name,age from user ${ew.customSqlSegment}
+    </select>
+</mapper>
